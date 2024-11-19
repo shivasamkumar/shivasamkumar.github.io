@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/shiva/Documents/robot_arm/install/robot_arm_interfaces/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_mapping/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/install/robot_car_v2_localization_planning/include/**",
+        "/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/install/robot_car_localization/include/**",
+        "/home/shiva/Documents/wrk_spc/install/my_robot_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_controller/include/**",
+        "/home/shiva/Documents/AGV_Kalman_Filter_Robot/robo_car/src/robot_car_localization/include/**",
+        "/home/shiva/Documents/PythonFinal/PythonFinalProject/proj_wrkspace/src/turtlebot3_fake_node/include/**",
+        "/home/shiva/Documents/PythonFinal/PythonFinalProject/proj_wrkspace/src/turtlebot3_gazebo/include/**",
+        "/home/shiva/Documents/proj_wrkspace/src/turtlebot3_fake_node/include/**",
+        "/home/shiva/Documents/proj_wrkspace/src/turtlebot3_gazebo/include/**",
+        "/home/shiva/Documents/robot_arm/src/robot_arm_bringup/include/**",
+        "/home/shiva/Documents/robot_arm/src/robot_arm_remote/include/**",
+        "/home/shiva/Documents/robot_car_v2_localization/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_bringup/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_controller/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_localization_planning/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_mapping/include/**",
+        "/home/shiva/Documents/ros2_projects/robot_car_V2/src/robot_car_v2_utils/include/**",
+        "/home/shiva/Documents/src/my_cpp_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1475,15 +1475,15 @@ footer {
 }
 
 .footer-avatar-img {
-    width: 200%;
-    height: 200%;
+    width: 150%;
+    height: 150%;
     z-index: 2;
 }
 
 .footer-avatar-face {
     position: absolute;
     width: 100%;
-    height: 97%;
+    height: 112%;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -1493,18 +1493,18 @@ footer {
 }
 
 .footer-avatar-eye {
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 40px;
     background-color: #dfd2d2;
-    border-radius: 50%;
+    border-radius: 40%;
     display: flex;
     align-items: center;
     justify-content: center
 }
 
 .footer-pupil {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background-color: #000;
     border-radius: 50%;
     border: 5px solid #413333;
@@ -1512,7 +1512,7 @@ footer {
 }
 
 .footer-right-eye {
-    box-shadow: 15px 15px 5px rgba(0, 0, 0, .233) inset, 10px 10px 5px rgba(41, 33, 33, .644) inset;
+    box-shadow: 15x 15px 5px rgba(0, 0, 0, .233) inset, 20px 10px 5px rgba(41, 33, 33, .644) inset;
     position: relative
 }
 
@@ -1524,8 +1524,8 @@ footer {
 .footer-avatar-eye::before {
     position: absolute;
     content: "";
-    width: 2px;
-    height: 5px;
+    width: 1px;
+    height: 35px;
     border-radius: 50%;
     background-color: rgba(214, 214, 214, .726);
     z-index: 2;
