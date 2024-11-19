@@ -28,6 +28,15 @@ plugins:
 paginate: 5 # Number of posts per page
 paginate_path: "/page:num/"
 
+include:
+  - index.html
+  - hexapod.html
+  - multi_robo.html
+  - ropal.html
+  - 3D_MOT.html
+  - drone.html
+  - 3D_MOT.html
+
 # Exclude
 exclude:
   - Gemfile
