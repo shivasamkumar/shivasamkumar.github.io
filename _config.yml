@@ -1,0 +1,83 @@
+# Site settings
+title: "Shiva Sam Kumar | Portfolio"
+description: "Shiva Sam Kumar Portfolio: Explore my journey in robotics and engineering, showcasing projects and designs that reflect innovation, precision, and creativity."
+baseurl: "" # Leave empty unless you're using a subpath (e.g., "/blog")
+url: "https://shivasamkumar.github.io" # Replace with your GitHub Pages URL
+
+# Build settings
+theme: jekyll-theme-primer
+source: . # Default source directory
+permalink: pretty
+
+# GitHub Pages settings
+github:
+  is_project_page: true
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-github-metadata
+  - jekyll-titles-from-headings
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+
+# Pagination settings
+paginate: 5 # Number of posts per page
+paginate_path: "/page:num/"
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Include
+include:
+  - _pages
+
+# Markdown Processor
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub-Flavored Markdown
+
+# Author Information
+author:
+  name: "Shiva Sam Kumar"
+  email: "shivasamkumar@gmail.com"
+
+# SEO and Metadata Settings
+seo:
+  title: "Shiva Sam Kumar Portfolio"
+  description: "Hi! My name is Shiva. I'm a robotics engineer passionate about autonomous systems and innovative technology solutions. Explore my projects and journey in designing precise, efficient robotic systems."
+  github_username: "shivasamkumar" # Replace with your GitHub username
+
+# Theme Settings
+primer:
+  scheme: light # Options: light or dark
+
+# Site Navigation Links (Optional)
+nav_links:
+  - name: "Home"
+    link: "#home"
+  - name: "About"
+    link: "#about"
+  - name: "Skills"
+    link: "#skills"
+  - name: "Projects"
+    link: "#projects"
+  - name: "Contact"
+    link: "#footer"
+
+# Social Media Links (Optional)
+social_links:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/shiva-sam-kumar/"
+  - name: "GitHub"
+    url: "https://github.com/shivasamkumar"
+  - name: "Email"
+    url: "mailto:shivasamkumarg@gmail.com"
+
