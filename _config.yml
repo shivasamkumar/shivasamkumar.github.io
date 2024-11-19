@@ -2,7 +2,7 @@
 title: "Shiva Sam Kumar | Portfolio"
 description: "Shiva Sam Kumar Portfolio: Explore my journey in robotics and engineering, showcasing projects and designs that reflect innovation, precision, and creativity."
 baseurl: "" # Leave empty unless you're using a subpath (e.g., "/blog")
-url: "https://shivasamkumar.github.io" # Replace with your GitHub Pages URL
+url: "https://shivasamkumar.github.io/shivasam.github.io/" # Replace with your GitHub Pages URL
 
 # Build settings
 theme: jekyll-theme-primer
