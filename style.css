@@ -2026,6 +2026,7 @@ footer {
     font-weight: bold;
     background: -webkit-linear-gradient(var(--static-heading-gradient-blue), var(--static-heading-gradient-pink));
     -webkit-background-clip: text;
+    background-clip: text;
     margin-bottom: 25px;
     color: transparent;
 }
