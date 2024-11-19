@@ -1493,10 +1493,10 @@ footer {
 }
 
 .footer-avatar-eye {
-    width: 45px;
+    width: 50px;
     height: 40px;
     background-color: #dfd2d2;
-    border-radius: 40%;
+    border-radius: 45%;
     display: flex;
     align-items: center;
     justify-content: center
@@ -1506,7 +1506,7 @@ footer {
     width: 18px;
     height: 18px;
     background-color: #000;
-    border-radius: 50%;
+    border-radius: 45%;
     border: 5px solid #413333;
     filter: blur(.6px)
 }
@@ -1524,7 +1524,7 @@ footer {
 .footer-avatar-eye::before {
     position: absolute;
     content: "";
-    width: 1px;
+    width: 2px;
     height: 35px;
     border-radius: 50%;
     background-color: rgba(214, 214, 214, .726);
