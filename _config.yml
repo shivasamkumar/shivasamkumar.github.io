@@ -30,6 +30,7 @@ paginate_path: "/page:num/"
 
 include:
   - index.html
+  - about_more.html
   - hexapod.html
   - multi_robo.html
   - ropal.html

@@ -855,6 +855,13 @@ noscript {
     transform: translateY(-7px) translateX(-7px)
 }
 
+.icon-container {
+    display: flex;
+    gap: 20px; /* Adjust spacing between icons */
+    justify-content:left;
+    margin-bottom:0; /* Adjust spacing below this section */
+  }
+
 .resume-btn {
     margin-top: 25px;
     justify-content: flex-start;
@@ -940,7 +947,7 @@ noscript {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 200px
+    padding-top: 100px
 }
 
 .about-section,
@@ -2169,3 +2176,352 @@ footer {
 .next-button {
     right: 80px;  /* Adjust the right position to create more space */
 }
+
+.certifications-section-container {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+  
+  .certifications-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .certifications-list {
+    display: grid; /* Switch to grid layout for better control */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create responsive grid with 3 boxes per row */
+    gap: 30px; /* Spacing between boxes */
+    justify-content: center; /* Center the grid */
+    padding: 20px; /* Add padding around the grid */
+}
+
+.certification-box {
+    width: 80%; /* Use grid's column width */
+    height: 250px; /* Keep consistent box height */
+    background-color: var(--tech-stack-box-first-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.certification-box:hover {
+    transform: scale(1.05); /* Slight zoom-in on hover */
+}
+
+.certification-image img {
+    width: 100%; /* Ensures image fills the box width */
+    height: 80%; /* Adjust image height */
+    object-fit: cover; /* Crop image to fit the box */
+    border-bottom: 5px solid rgba(255, 255, 255, 0.2); /* Optional: Separator line */
+}
+
+.certification-title {
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+/* .certification-description {
+    font-size: 2rem;
+    color: rgba(200, 200, 200, 0.8);
+    margin-top: 5px;
+    text-align: center;
+    padding: 0 10px;
+} */
+
+  
+  /* .certification-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-white);
+  }
+  
+  .certification-description {
+    font-size: 1.4rem;
+    color: gray;
+    margin-top: 10px;
+  } */
+
+/* Experience Section */
+.experience-section-container {
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+.experience-section {
+width: 60%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/* Timeline Container */
+/* Timeline Container */
+
+  
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%; /* Center the vertical line */
+    top: 0;
+    width: 2px; /* Adjust line width */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%; /* Each item takes up half the width */
+    padding: 20px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.timeline-item:nth-child(odd) {
+    left: calc(-25% - 25px); /* 25px to the left of the centerline */
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: calc(25% + 25px); /* 25px to the right of the centerline */
+    text-align: left;
+}
+
+.timeline-item .timeline-content {
+    background-color: var(--tech-stack-box-first-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: 90%;
+    position: relative;
+}
+
+.timeline-date {
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.8); /* Match the text color with the rest of the theme */
+    position: absolute;
+    top: -20px; /* Position slightly above the box */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center the text relative to its width */
+    padding: 5px 10px; /* Optional: Add padding for spacing */
+    z-index: 2; /* Ensure it stays on top of other elements */
+}
+
+
+
+
+  
+.timeline-dot {
+position: relative;
+left: 30px;
+width: 12px;
+height: 12px;
+background-color: rgba(255, 255, 255, 0.8); /* Adjusted for theme */
+border-radius: 50%;
+border: 2px solid rgba(0, 0, 0, 0.1); /* Optional border */
+}
+
+
+
+  
+
+  
+  /* Content Box */
+  .timeline-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    background-color: var(--tech-stack-box-first-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    width: auto; /* Automatically adjusts based on content */
+    max-width: 90%; /* Prevents box from becoming too wide */
+    word-wrap: break-word; /* Ensures long words break into a new line */
+  }
+  
+  .timeline-content:hover {
+    transform: scale(1.02);
+    background-color: var(--tech-stack-box-second-color);
+  }
+  
+  /* Title and Role Styling */
+  .timeline-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    text-align: left; /* Ensure text aligns to the left */
+    line-height: 1.6; /* Adds space between lines in the title */
+  }
+  
+  .timeline-content p,
+  .timeline-content ul {
+    font-size: 1.75rem;
+    color: rgba(220, 220, 220, 1);
+  }
+
+  
+  
+  .timeline-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .collapsible-content {
+    display: none;
+    padding: 10px 0;
+  }
+  
+  .timeline-content .toggle-arrow {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: -30%;
+  }
+  
+  .timeline-content .toggle-arrow.active {
+    transform: rotate(180deg);
+  }
+  
+  .timeline-content ul {
+    line-height: 2px; /* Adjust the value for desired spacing */
+  }
+  
+  .timeline-content ul li {
+    margin-bottom: 10px; /* Add space between each bullet point */
+  }
+  
+  /* Add spacing between title and role */
+  .timeline-content h3 {
+    display: flex;
+    justify-content: space-between; /* Ensures content is distributed evenly */
+    align-items: center; /* Vertically aligns the text and arrow */
+  }
+  
+
+  
+
+  /* Styling for the role title */
+  .role-title {
+    font-size: 1.8rem;
+    color: rgba(200, 200, 200, 0.8); /* Slightly muted color */
+    margin-top: 10px;
+    white-space: normal; /* Allows the text to wrap */
+    word-wrap: break-word; /* Breaks long words */
+    overflow-wrap: break-word; /* Ensures content breaks inside the box */
+    text-align: left; /* Aligns text to the left */
+    width: 100%; /* Stretches to fit the box width */
+  }
+  
+  /* Styling for the arrow and collapsible content */
+  .toggle-arrow {
+    display: inline-block; /* Ensure it aligns properly next to the role */
+    cursor: pointer;
+    font-size: 1.5rem; /* Adjust arrow size */
+    margin: 0; /* Remove unnecessary margins */
+}
+  
+  .collapsible-content {
+    display: none; /* Hide bullet points initially */
+    margin-top: 10px; /* Space between arrow and content */
+  }
+  
+  .collapsible-content.active {
+    display: block; /* Show content when the arrow is clicked */
+  }
+
+  .role-container {
+    display: flex;
+    align-items: center; /* Vertically align the text and arrow */
+    justify-content: space-between; /* Align both the role and the arrow to the right */
+    gap: 5px; /* Add spacing between role and arrow */
+  }
+
+  .collapsible-content {
+    display: none; /* Initially hide the bullet points */
+    margin-top: 10px; /* Add some space between arrow and content */
+  }
+  
+
+.timeline-content {
+    text-align: justify; /* Justifies all text inside the box */
+}
+
+.timeline-content ul {
+    padding-left: 20px; /* Indentation for the bullet points */
+    list-style-position: inside; /* Ensure bullets stay outside the text */
+    text-indent: -20px; /* Pull the first word closer to the bullet point */
+}
+
+.timeline-content ul li {
+    margin-bottom: 5px; /* Reduce spacing between bullet points */
+    text-align: justify; /* Keep the text justified */
+    line-height: 1.5; /* Adjust line height for better readability */
+}
+
+
+.know-more-btn {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 1.6rem;
+background: linear-gradient(90deg, var(--color-light-purple), var(--color-light-blue));
+color: var(--color-white);
+border: none;
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+  
+.know-more-btn:hover {
+background: linear-gradient(90deg, var(--color-light-blue), var(--color-light-purple));
+transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .timeline-item .timeline-content {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .timeline-date {
+        position: static;
+        margin-bottom: 10px;
+    }
+}
+  

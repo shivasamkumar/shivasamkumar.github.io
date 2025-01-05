@@ -48,6 +48,7 @@
           <li class="about" data-aos="fade-down" data-aos-delay="300"><a href="#about" aria-label="about menu button">&#60;/AboutMe&#62;</a></li>
           <li class="skills" data-aos="fade-down" data-aos-delay="500"><a href="#skills" aria-label="skills menu button">&#60;/Skills&#62;</a></li>
           <li class="projects" data-aos="fade-down" data-aos-delay="700"><a href="#projects" aria-label="projects menu button">&#60;/Projects&#62;</a></li>
+          <li class="experience" data-aos="fade-down" data-aos-delay="500"><a href="about_more.html#experience">&#60;/Experience&#62;</a></li>
           <li class="contact" data-aos="fade-down" data-aos-delay="900"><a href="#footer" aria-label="contact menu button">&#60;/Contact&#62;</a></li>
         </ul>
       </div>
@@ -88,6 +89,12 @@
         <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
           <a href="#projects" tabindex="0" aria-label="projects menu button">
             &#60;/Projects&#62;
+          </a>
+        </li>
+
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="about_more.html#experience" tabindex="0" aria-label="skills menu button">
+            &#60;/Experience&#62;
           </a>
         </li>
 
@@ -284,19 +291,38 @@
             <p tabindex="0">
               Outside of academics, I am passionate about leveraging advanced technologies to solve real-world challenges and improve system efficiencies. 
               With 2 years of experience in robotics and automation, I have developed expertise in designing autonomous systems, 
-              optimizing control algorithms, and streamlining engineering solutions to enhance productivity. 
-              My professional journey has given me hands-on exposure to developing intelligent solutions and integrating innovative technologies.
+              optimizing control algorithms, and streamlining engineering solutions. Please do click the next button for further information on my experience and certifications.
             </p>
-            <br />
+            <!-- <br />
             <p tabindex="0">
               I am particularly interested in autonomous navigation, multi-agent systems, and integrating AI into robotics to enable smarter decision-making. 
               My technical skills in tools like ROS, Python, and Navigation stack, combined with my background in project management and cross-functional collaboration, 
               have equipped me to thrive in dynamic, multidisciplinary environments and deliver impactful solutions.
 
 
-            </p>
+            </p> -->
              <!-- Resume button -->
-      <button class="resume-btn" id="resume-btn" onclick="openURL()">
+            <div class="icon-container">
+              <button class="resume-btn" id="resume-btn1" onclick="openURL()">
+                <div class="sign">
+                  <svg viewBox="0 0 640 512">
+                    <path
+                      d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+                  </svg>
+                </div>
+                <div class="text">Resume</div>
+              </button>
+              <button class="resume-btn" id="resume-btn2" onclick="window.location.href='about_more.html';">
+                <div class="sign">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width:24px; height:24px;">
+                    <path 
+                    d="M224 240L48 64c-8.4-8.4-8.4-22 0-30.4L64 17.6c8.4-8.4 22-8.4 30.4 0L288 211.2c8.4 8.4 8.4 22 0 30.4L94.4 435.2c-8.4 8.4-22 8.4-30.4 0l-16-16c-8.4-8.4-8.4-22 0-30.4L224 240zm192 0L240 64c-8.4-8.4-8.4-22 0-30.4L256 17.6c8.4-8.4 22-8.4 30.4 0L480 211.2c8.4 8.4 8.4 22 0 30.4L286.4 435.2c-8.4 8.4-22 8.4-30.4 0l-16-16c-8.4-8.4-8.4-22 0-30.4L416 240z" />
+                  </svg>
+                </div>
+                <div class="text">Learn More</div>
+              </button>
+            </div>
+      <!-- <button class="resume-btn" id="resume-btn" onclick="openURL()">
         <div class="sign">
           <svg viewBox="0 0 640 512">
             <path
@@ -306,7 +332,18 @@
 
         <div class="text">Resume</div>
       </button>
-          </div>
+
+      <button class="resume-btn" id="resume-btn" onclick="openURL()">
+        <div class="sign">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style="width:24px; height:24px;">
+            <path 
+            d="M224 240L48 64c-8.4-8.4-8.4-22 0-30.4L64 17.6c8.4-8.4 22-8.4 30.4 0L288 211.2c8.4 8.4 8.4 22 0 30.4L94.4 435.2c-8.4 8.4-22 8.4-30.4 0l-16-16c-8.4-8.4-8.4-22 0-30.4L224 240zm192 0L240 64c-8.4-8.4-8.4-22 0-30.4L256 17.6c8.4-8.4 22-8.4 30.4 0L480 211.2c8.4 8.4 8.4 22 0 30.4L286.4 435.2c-8.4 8.4-22 8.4-30.4 0l-16-16c-8.4-8.4-8.4-22 0-30.4L416 240z" />
+          </svg>
+        </div>
+        <div class="text">Know More</div>
+      </button> -->
+
+        </div>
 
           <div class="dp" data-aos="fade-up">
             <img src="src/webp/me.jpg" alt="shiva sam" tabindex="0" aria-label="image of Shiva Sam" />
@@ -416,6 +453,10 @@
       </div>
     </section>
     <!-- skills section ends -->
+
+    
+
+
     <section class="projects-section-container" id="projects">
       <div class="projects-section-div">
         <div class="section-heading" data-aos="fade-up">
