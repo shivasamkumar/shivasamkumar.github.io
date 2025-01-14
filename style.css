@@ -333,7 +333,7 @@ noscript {
     background-image: linear-gradient(to bottom right, var(--tech-stack-box-first-color), var(--tech-stack-box-second-color));
     backdrop-filter: blur(10px);
     height: 80px;
-    width: 80%;
+    width: 90%;
     padding: 0 20px;
     justify-content: space-between;
     z-index: 999;
@@ -556,7 +556,7 @@ noscript {
 .text-content {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     height: 100%;
     align-items: flex-start;
     justify-content: center
@@ -953,7 +953,7 @@ noscript {
 .about-section,
 .projects-section-div,
 .skills-section {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1153,7 +1153,7 @@ footer {
 }
 
 .project-boxes-div {
-    width: 100%;
+    width: 90%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -1169,8 +1169,9 @@ footer {
 }
 
 .project-box {
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 500px;
+    max-height: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -2187,7 +2188,7 @@ footer {
   }
 
   .certifications-section {
-    width: 60%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2277,7 +2278,7 @@ footer {
 
 /* Experience Section */
 .experience-section-container {
-    padding: 100px 0;
+    padding: 100px 0px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -2286,7 +2287,7 @@ footer {
   }
   
 .experience-section {
-width: 60%;
+width: 80%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -2296,7 +2297,7 @@ justify-content: center;
 /* Timeline Container */
 /* Timeline Container */
 
-  
+ 
 .timeline {
     display: flex;
     flex-direction: column;
@@ -2305,7 +2306,7 @@ justify-content: center;
     width: 100%;
     margin-top: 40px;
 }
-
+ 
 .timeline::before {
     content: "";
     position: absolute;
@@ -2359,16 +2360,6 @@ justify-content: center;
 
 
 
-  
-.timeline-dot {
-position: relative;
-left: 30px;
-width: 12px;
-height: 12px;
-background-color: rgba(255, 255, 255, 0.8); /* Adjusted for theme */
-border-radius: 50%;
-border: 2px solid rgba(0, 0, 0, 0.1); /* Optional border */
-}
 
 
 
@@ -2388,7 +2379,7 @@ border: 2px solid rgba(0, 0, 0, 0.1); /* Optional border */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     width: auto; /* Automatically adjusts based on content */
-    max-width: 90%; /* Prevents box from becoming too wide */
+    max-width: 100%; /* Prevents box from becoming too wide */
     word-wrap: break-word; /* Ensures long words break into a new line */
   }
   
@@ -2470,7 +2461,7 @@ border: 2px solid rgba(0, 0, 0, 0.1); /* Optional border */
     display: inline-block; /* Ensure it aligns properly next to the role */
     cursor: pointer;
     font-size: 1.5rem; /* Adjust arrow size */
-    margin: 0; /* Remove unnecessary margins */
+    margin: 0px; /* Remove unnecessary margins */
 }
   
   .collapsible-content {
@@ -2486,7 +2477,7 @@ border: 2px solid rgba(0, 0, 0, 0.1); /* Optional border */
     display: flex;
     align-items: center; /* Vertically align the text and arrow */
     justify-content: space-between; /* Align both the role and the arrow to the right */
-    gap: 5px; /* Add spacing between role and arrow */
+    gap: 20px; /* Add spacing between role and arrow */
   }
 
   .collapsible-content {
@@ -2530,20 +2521,72 @@ transform: scale(1.1);
 }
 
 
-@media (max-width: 768px) {
-    .timeline-item {
-        width: 100%;
-        text-align: center;
-    }
+@media screen and (max-width: 768px) {
 
-    .timeline-item .timeline-content {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .timeline {
+    flex-direction: column; /* Ensure vertical stacking */
+    align-items: center; /* Center-align the boxes */
+    padding: 0; /* Remove unnecessary padding */
+  }
 
-    .timeline-date {
-        position: static;
-        margin-bottom: 10px;
-    }
+  .timeline::before {
+    display: none; /* Remove the centerline */
+  }
+
+  .timeline-item {
+    width: 95%; /* Ensure boxes fit within the viewport */
+    margin: 15px 0; /* Add space between boxes */
+    text-align: left; /* Align text to the left */
+    position: relative; /* Ensure proper stacking */
+    left: 0 !important; /* Reset any left positioning */
+  }
+
+  .timeline-content {
+    width: 100%; /* Make content fit within the box */
+    max-width: 100%; /* Prevent content overflow */
+    padding: 15px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in box size */
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Ensure compatibility */
+    background-color: var(--tech-stack-box-first-color); /* Consistent style */
+    border-radius: 10px; /* Keep rounded corners */
+  }
+
+  .timeline-date {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    text-align: center; /* Center-align dates */
+    margin-bottom: 10px; /* Add space below dates */
+  }
+
+  .role-container {
+    display: flex;
+    justify-content: space-between; /* Separate role and arrow */
+    align-items: center;
+    width: 100%; /* Fit within the box */
+  }
+
+  .role-title {
+    font-size: 1.4rem; /* Adjust role text size */
+    text-align: left; /* Ensure proper alignment */
+    word-wrap: break-word; /* Prevent text overflow */
+  }
+
+  .toggle-arrow {
+    font-size: 1.2rem; /* Adjust arrow size */
+    margin-left: auto; /* Push arrow to the right */
+  }
+
+  .timeline-content p,
+  .timeline-content ul {
+    font-size: 1.4rem; /* Adjust text size for readability */
+    line-height: 1.6; /* Improve spacing between lines */
+  }
+
+  .timeline-content ul {
+    padding-left: 20px; /* Indent bullet points */
+  }
+
+  .timeline-content ul li {
+    margin-bottom: 5px; /* Space between list items */
+  }
 }
-  
