@@ -860,20 +860,92 @@ noscript {
     gap: 20px; /* Adjust spacing between icons */
     justify-content:left;
     margin-bottom:0; /* Adjust spacing below this section */
+    margin-top: 30px;
   }
 
-.resume-btn {
-    margin-top: 25px;
-    justify-content: flex-start;
-    width: 45px;
-    height: 45px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .199);
+  .resume-btn {
+    display: flex; /* Arrange icon and text side by side */
+    align-items: center; /* Vertically center icon and text */
+    justify-content: center; /* Horizontally align content */
+    padding: 10px 20px; /* Add space inside the button */
+    border-radius: 25px; /* Make it look like a pill shape */
     background: linear-gradient(82.3deg, #965de9 10.8%, #6358ee 94.3%);
-    position: relative
-}
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    color: #fff; /* Text color */
+    font-size: 1.6rem; /* Adjust font size for readability */
+    font-weight: 500; /* Make text slightly bold */
+    cursor: pointer; /* Add pointer cursor */
+    border: none; /* Remove default border */
+    gap: 10px; /* Add space between icon and text */
+  }
+  
+  .resume-btn .sign svg {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    fill: currentColor; /* Inherit color from text */
+  }
+  
+  .resume-btn .sign {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .resume-btn .text {
+    display: inline-block; /* Ensure the text is always visible */
+    color: black; /* Ensure text is visible against the button background */
+    font-size: 1.4rem; /* Adjust text size */
+    font-weight: 500;
+    margin-left: 10px; /* Space between icon and text */
+    text-align: center;
+  }
+
+  .resume-btn:hover {
+    transform: none; /* Disable hover transformation */
+  }
+
+
+  .resume-btn-new {
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Center content inside the button */
+    width: auto; /* Adjust width dynamically based on content */
+    padding: 10px 20px; /* Space around the content */
+    border-radius: 25px; /* Rounded corners */
+    background: linear-gradient(82.3deg, #965de9 10.8%, #6358ee 94.3%);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+    color: #fff; /* Text color */
+    font-size: 1.6rem; /* Text size */
+    font-weight: 800; /* Bold text for better visibility */
+    cursor: pointer; /* Show pointer cursor */
+    border: none; /* Remove border */
+    gap: 10px; /* Space between icon and text */
+  }
+  
+  .resume-btn-new .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .resume-btn-new .icon svg {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    fill: currentColor; /* Make icon inherit the button's text color */
+  }
+  
+  .resume-btn-new .text {
+    display: block; /* Ensure the text is always visible */
+    color: black; /* Explicitly set text color */
+    font-size: 3rem; /* Adjust text size */
+    font-weight: 1000;
+  }
+  
+  .resume-btn-new:hover {
+    background: linear-gradient(82.3deg, #6358ee 10.8%, #965de9 94.3%); /* Inverse gradient on hover */
+    box-shadow: 0px 4px 15px rgba(99, 88, 238, 0.4); /* Glow effect on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
 
 .projects-heading-article,
 .projectsHeadingP,
@@ -909,7 +981,7 @@ noscript {
     transition-duration: .3s
 }
 
-.resume-btn:hover {
+/* .resume-btn:hover {
     width: 130px;
     border-radius: 40px;
     transition-duration: .3s
@@ -926,7 +998,7 @@ noscript {
     width: 70%;
     transition-duration: .3s;
     padding-right: 10px
-}
+} */
 
 .dp,
 .dp::after,
