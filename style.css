@@ -2534,11 +2534,11 @@ transform: scale(1.1);
   }
 
   .timeline-item {
-    width: 95%; /* Ensure boxes fit within the viewport */
-    margin: 15px 0; /* Add space between boxes */
+    width: 120%; /* Ensure boxes fit within the viewport */
+    margin: 15px 10px; /* Add space between boxes */
     text-align: left; /* Align text to the left */
     position: relative; /* Ensure proper stacking */
-    left: 0 !important; /* Reset any left positioning */
+    left: 20px !important; /* Reset any left positioning */
   }
 
   .timeline-content {
