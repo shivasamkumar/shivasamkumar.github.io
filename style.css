@@ -2590,3 +2590,50 @@ transform: scale(1.1);
     margin-bottom: 5px; /* Space between list items */
   }
 }
+
+@media screen and (max-width: 768px) {
+    .project-box .image-div {
+      display: none; /* Hides the image container */
+    }
+  
+    .project-box .info-div {
+      width: 100%; /* Makes the info-div full-width */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    /* Reduce vertical spacing */
+    .project-box {
+      padding: 20px 10px; /* Adjust padding for compact spacing */
+    }
+  
+    .info-div {
+      gap: 10px; /* Reduce gap between elements inside the info-div */
+    }
+  
+    /* Ensure buttons wrap if they don't fit */
+    .project-buttons {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping of buttons */
+      gap: 15px; /* Space between buttons */
+      justify-content: flex-start; /* Align buttons to the left */
+    }
+  
+    .project-buttons a {
+      flex: 1 1 calc(50% - 10px); /* Each button takes up 50% width minus the gap */
+      text-align: center; /* Center text inside buttons */
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .project-box {
+      height: auto; /* Dynamically adjust height based on content */
+      padding: 30px 5px; /* Compact padding for smaller screens */
+    }
+  
+    .project-box .info-div {
+      gap: 10px; /* Reduce gap between elements for compactness */
+    }
+  
+  }
+  
