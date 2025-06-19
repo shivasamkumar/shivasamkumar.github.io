@@ -459,308 +459,297 @@
 
     <section class="projects-section-container" id="projects">
       <div class="projects-section-div">
+        <!-- Heading -->
         <div class="section-heading" data-aos="fade-up">
           <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
             &#60;/Projects&#62;
           </h2>
           <p class="sectionHeadingP"></p>
         </div>
+    
+        <!-- Filter bar -->
+        <!-- <div class="projects-filter" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ros">ROS Projects</button>
+          <button class="filter-btn" data-filter="robotics">Robotics Projects</button>
+        </div> -->
+        <div class="projects-filter" data-aos="fade-up">
+          <button class="filter-btn active" data-filter="ros">ROS Projects</button>
+          <button class="filter-btn" data-filter="robotics">Robotics Projects</button>
+        </div>
+    
+        <!-- Grid of project cards -->
         <div class="project-boxes-div">
-          <div data-aos="fade-up" class="project-box-wrapper">
+          <!-- Voice-Controlled Robotic Arm -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
                 <article class="ProjectHeading">Voice-Controlled 3-DOF Robotic Arm</article>
                 <p class="ProjectDescription">
-                  A robotic arm powered by Alexa voice commands, integrating ROS 2, Gazebo, and MoveIt for precise real-time trajectory planning and execution, 
-                  bridging digital simulation and real-world functionality.
+                  A robotic arm powered by Alexa voice commands, integrating ROS 2, Gazebo, and MoveIt for precise real-time trajectory planning and execution.
                 </p>
                 <p class="ProjectDescription">
-                  Please click the github icon for more details.
+                  Please click the GitHub icon for more details.
                 </p>
                 <div class="project-buttons">
-                  <a href="https://github.com/shivasamkumar/3_Dof_Robot_Arm_Controller" target="_blank" class="cta"
-                    aria-label="Visit GitHub for more details">
-                    <!-- GitHub Icon -->
+                  <a href="https://github.com/shivasamkumar/3_Dof_Robot_Arm_Controller"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
                     <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
-                    <!-- Button Text -->
                     <span>GitHub</span>
-                    <!-- Arrow Icon -->
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/robot_arm.png" alt="Robot_arm" />
-              </div>
-            </div>
-          </div>
-           
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box3" id="project-box3">
-              <div class="info-div">
-                <article class="ProjectHeading">AGV: IMU Sensors and EKF Fusion</article>
-                <p class="ProjectDescription">
-                  A custom-built robot car utilizing IMU sensors and Extended Kalman Filter for advanced sensor fusion, 
-                  with Gazebo simulation ensuring precise data visualization for real-world autonomous applications.
-                </p>
-                <p class="ProjectDescription">
-                  Please click the github icon for more details.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/shivasamkumar/AGV_Kalman_Filter_Robot" target="_blank" class="cta"
-                    aria-label="Visit GitHub for more details">
-                    <!-- GitHub Icon -->
-                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
-                    <!-- Button Text -->
-                    <span>GitHub</span>
-                    <!-- Arrow Icon -->
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/kalman_filter.png" alt="preview image" />
-              </div>
-            </div>
-          </div>
-
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box1" id="project-box1">
-              <div class="info-div">
-                <article class="ProjectHeading">AGV: Adaptive MCL, SLAM, and Twist Mux Integration</article>
-                <p class="ProjectDescription">
-                  Enhanced robot car with advanced localization and mapping using Adaptive Monte Carlo Localization, SLAM, and 
-                  Twist Mux for priority-based velocity control.
-                </p>
-                <p class="ProjectDescription">
-                  Please click on the github icon for more details.
-                </p>
-                <div class="project-buttons">
-
-                  <a href="https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping" target="_blank" class="cta"
-                    aria-label="Visit GitHub for more details">
-                    <!-- GitHub Icon -->
-                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
-                    <!-- Button Text -->
-                    <span>GitHub</span>
-                    <!-- Arrow Icon -->
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/AGV_slam.png" alt="preview image" />
-              </div>
-            </div>
-          </div>
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box1" id="project-box1">
-              <div class="info-div">
-                <article class="ProjectHeading">LPV-MPC Controller for AGV Trajectory Tracking</article>
-                <p class="ProjectDescription">
-                  Designed an LPV-MPC control system for precise trajectory tracking of autonomous vehicles, 
-                  ensuring robust performance under dynamic conditions.
-                </p>
-                <p class="ProjectDescription">
-                  Please click on the github icon for more details.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/shivasamkumar/Design_Optimization_Final_project" target="_blank" class="cta"
-                    aria-label="Visit GitHub for more details">
-                    <!-- GitHub Icon -->
-                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
-                    <!-- Button Text -->
-                    <span>GitHub</span>
-                    <!-- Arrow Icon -->
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/lpv_mpc.png" alt="preview image" />
-              </div>
-            </div>
-          </div>
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box4" id="project-box4">
-              <div class="info-div">
-                <article class="ProjectHeading">Enhanced Real-Time 3D Multi-Object Detection</article>
-                <p class="ProjectDescription">
-                  Boosting 3D object detection for autonomous systems through faster, 
-                  more accurate tracking using PointPillars and TANet integration.
-                </p>
-                <div class="project-buttons">
-                  <a href="3D_MOT.html" class="cta project-detail-link" aria-label="Read more about 3D MOT">
-                    <span>Read More</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-
-                  <a href="javascript:void(0);" class="cta" aria-label="Open Project Documentation" onclick="open_3d_mot()">
-                    <span>Project Docs</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/Object_detection.png" alt="preview image" />
-              </div>
-            </div>
-          </div>
-
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box5" id="project-box5">
-              <div class="info-div">
-                <article class="ProjectHeading">Multi-Robot Navigation with DARP and A* Algorithms</article>
-                <p class="ProjectDescription">
-                  Optimizing warehouse automation with a multi-robot system using DARP for area division and A* for efficient path planning, 
-                  showcasing a novel approach.
-                </p>
-                <div class="project-buttons">
-                  <a href="multi_robo.html" class="cta project-detail-link" aria-label="Read more about 3D MOT">
-                    <span>Read More</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                  <a href="javascript:void(0);" class="cta" aria-label="Open Project Documentation" onclick="open_multi_robo()">
-                    <span>Project Docs</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/multi_robo.png" alt="preview image" />
-              </div>
-            </div>
-          </div>
-
-          <!-- ---------------------- -->
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box2" id="project-box2">
-              <div class="info-div">
-                <article class="ProjectHeading">RoPal - Your Friend at Workplace</article>
-                <p class="ProjectDescription">
-                  A smart robot that detects employee stress through facial recognition and 
-                  delivers soothing aromatherapy to foster a relaxing workplace environment.
-                </p>
-                <div class="project-buttons">
-                  <a href="ropal.html" class="cta project-detail-link" aria-label="Read more about ROPAL">
-                    <span>Read More</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-
-
-                </div>
-              </div>
-              <div class="image-div">
-                <img src="src/webp/iso_hack.jpg" alt="Aquaregia website preview image" />
-              </div>
-            </div>
-          </div>
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box1" id="project-box1">
-              <div class="info-div">
-                <!-- <img src="src/webp/axocean-favicon.webp" alt="Axocean website favicon" class="faviconforProject" /> -->
-                <article class="ProjectHeading">Hexapod Kinematics Simulator</article>
-                <p class="ProjectDescription">
-                  Collaboratively developed a web-based visualizer for simulating forward and inverse kinematics of a hexapod, 
-                  focusing on precise leg and body movement coordination with a team of five.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://hexapod-mae547.web.app/" target="_blank" class="cta"
-                    aria-label="Visit hexapod live">
-                    <span>Live view</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
                       <path d="M1,5 L11,5"></path>
                       <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                   </a>
-                  <a href="hexapod.html" class="cta project-detail-link" aria-label="Read more about Hexapod">
-                    <span>Read More</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-
-                  <a href="javascript:void(0);" class="cta" aria-label="Open Project Documentation" onclick="open_hexapod()">
-                    <span>Project Docs</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-
                 </div>
               </div>
-              <div class="image-div">
-                <img src="src/webp/hexapod.png" alt="preview image" />
-              </div>
+              <!-- image-div commented out -->
             </div>
           </div>
-          <!-- ---------------------- -->
-
-          <div class="project-box-wrapper" data-aos="fade-up">
-            <div class="project-box project-box1" id="project-box1">
+    
+          <!-- AGV: IMU Sensors and EKF Fusion -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
+            <div class="project-box project-box3" id="project-box3">
               <div class="info-div">
-                <article class="ProjectHeading">Mambo Drone: Autonomous Line-Following and Controls Design</article>
+                <article class="ProjectHeading">AGV: IMU Sensors and EKF Fusion</article>
                 <p class="ProjectDescription">
-                  Created a low-level software architecture for the Mambo mini drone, integrating control systems, sensor fusion, 
-                  and computer vision to enable precise autonomous line-following capabilities.
+                  A custom-built robot car utilizing IMU sensors and Extended Kalman Filter for advanced sensor fusion with Gazebo simulation.
+                </p>
+                <p class="ProjectDescription">
+                  Please click the GitHub icon for more details.
                 </p>
                 <div class="project-buttons">
-                  <a href="drone.html" class="cta project-detail-link" aria-label="Read more about Drone simulator">
-                    <span>Read More</span>
+                  <a href="https://github.com/shivasamkumar/AGV_Kalman_Filter_Robot"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
                     <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
                     </svg>
                   </a>
                 </div>
               </div>
-              <div class="image-div">
-                <img src="src/webp/Drone.png" alt="preview image" />
+            </div>
+          </div>
+    
+          <!-- AGV: Adaptive MCL & SLAM -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">AGV: Adaptive MCL, SLAM & Twist Mux</article>
+                <p class="ProjectDescription">
+                  Enhanced robot car with Adaptive Monte Carlo Localization, SLAM, and Twist Mux for priority-based velocity control.
+                </p>
+                <p class="ProjectDescription">
+                  Please click the GitHub icon for more details.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+    
+          <!-- LPV-MPC Controller -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">LPV-MPC Controller for AGV</article>
+                <p class="ProjectDescription">
+                  Designed an LPV-MPC system for precise trajectory tracking of autonomous vehicles under dynamic conditions.
+                </p>
+                <p class="ProjectDescription">
+                  Please click the GitHub icon for more details.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Design_Optimization_Final_project"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Enhanced Real-Time 3D Multi-Object Detection -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box4" id="project-box4">
+              <div class="info-div">
+                <article class="ProjectHeading">3D Multi-Object Detection</article>
+                <p class="ProjectDescription">
+                  Faster, more accurate 3D tracking using PointPillars and TANet integration for autonomous systems.
+                </p>
+                <div class="project-buttons">
+                  <a href="3D_MOT.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about 3D MOT">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                  <a href="javascript:void(0);"
+                     class="cta"
+                     aria-label="Open Project Docs"
+                     onclick="open_3d_mot()">
+                    <span>Project Docs</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Multi-Robot Navigation -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <article class="ProjectHeading">Multi-Robot Navigation with DARP & A*</article>
+                <p class="ProjectDescription">
+                  Optimizing warehouse automation using DARP for area division and A* for efficient path planning.
+                </p>
+                <div class="project-buttons">
+                  <a href="multi_robo.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about Multi-Robot">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                  <a href="javascript:void(0);"
+                     class="cta"
+                     aria-label="Open Project Docs"
+                     onclick="open_multi_robo()">
+                    <span>Project Docs</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- RoPal – Workplace Aromatherapy Robot -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <article class="ProjectHeading">RoPal – Your Friend at Workplace</article>
+                <p class="ProjectDescription">
+                  A robot that detects stress through facial recognition and delivers soothing aromatherapy.
+                </p>
+                <div class="project-buttons">
+                  <a href="ropal.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about RoPal">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Hexapod Kinematics Simulator -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Hexapod Kinematics Simulator</article>
+                <p class="ProjectDescription">
+                  Web-based visualizer for forward/inverse kinematics of a hexapod, built with a team of five.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://hexapod-mae547.web.app/"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Live view">
+                    <span>Live View</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                  <a href="hexapod.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about Hexapod">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                  <a href="javascript:void(0);"
+                     class="cta"
+                     aria-label="Open Project Docs"
+                     onclick="open_hexapod()">
+                    <span>Project Docs</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Mambo Drone -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Mambo Drone: Line-Following & Controls</article>
+                <p class="ProjectDescription">
+                  Low-level software, sensor fusion, and vision for precise autonomous line-following.
+                </p>
+                <div class="project-buttons">
+                  <a href="drone.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about Drone">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+        </div> <!-- /.project-boxes-div -->
+      </div> <!-- /.projects-section-div -->
     </section>
   </main>
   <!-- main ends here -->
@@ -879,6 +868,58 @@
 
   </script>
 
+  <!-- <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards   = document.querySelectorAll('.project-box-wrapper');
+
+    buttons.forEach(btn =>
+      btn.addEventListener('click', () => {
+        // 1) Update active button
+        buttons.forEach(b=> b.classList.remove('active'));
+        btn.classList.add('active');
+
+        // 2) Show/hide cards
+        const filter = btn.dataset.filter;
+        cards.forEach(card => {
+          const cats = card.dataset.category.split(' ');
+          card.style.display = (filter === 'all' || cats.includes(filter))
+                              ? 'block'
+                              : 'none';
+        });
+
+        // 3) Re-run AOS so the now-visible cards will fade in
+        AOS.refresh();
+      })
+    );
+  </script> -->
+
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards   = document.querySelectorAll('.project-box-wrapper');
+  
+    buttons.forEach(btn =>
+      btn.addEventListener('click', () => {
+        // 1) Highlight the active button
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+  
+        // 2) Show only cards matching this filter
+        const filter = btn.dataset.filter;
+        cards.forEach(card => {
+          const cats = card.dataset.category.split(' ');
+          card.style.display = cats.includes(filter) ? 'block' : 'none';
+        });
+  
+        // 3) Refresh AOS so newly-visible cards animate
+        AOS.refresh();
+      })
+    );
+  
+    // Optional: auto-apply the first button’s filter on page-load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('.filter-btn.active').click();
+    });
+  </script>
 </body>
 
 </html>
