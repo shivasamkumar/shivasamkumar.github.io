@@ -474,8 +474,10 @@
           <button class="filter-btn" data-filter="robotics">Robotics Projects</button>
         </div> -->
         <div class="projects-filter" data-aos="fade-up">
-          <button class="filter-btn active" data-filter="ros">ROS Projects</button>
+          <button class="filter-btn active" data-filter="ros">ROS Framework Projects</button>
           <button class="filter-btn" data-filter="robotics">Robotics Projects</button>
+          <button class="filter-btn active" data-filter="ai_ml">AI/ML Projects</button>
+          <button class="filter-btn" data-filter="research_paper">Research Papers & Blogs</button>
         </div>
     
         <!-- Grid of project cards -->
@@ -486,11 +488,17 @@
               <div class="info-div">
                 <article class="ProjectHeading">Voice-Controlled 3-DOF Robotic Arm</article>
                 <p class="ProjectDescription">
-                  A robotic arm powered by Alexa voice commands, integrating ROS 2, Gazebo, and MoveIt for precise real-time trajectory planning and execution.
+                  A robotic arm powered by Alexa voice commands, integrating ROS 2, Gazebo, Flask and MoveIt for precise real-time trajectory planning and execution.
                 </p>
-                <p class="ProjectDescription">
-                  Please click the GitHub icon for more details.
-                </p>
+                <br>
+                <br>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/ros2.svg" alt="ros2" title="Ros2" />
+                  <img src="./src/svg/moveit.svg" alt="MoveIt" title="Moveit" />
+                  <img src="./src/svg/Gazebo.svg" alt="Gazebo" title="Gazebo" /> 
+                  <img src="./src/svg/icons8-flask.svg" alt="flask" title="flask" /> 
+                </div>
                 <div class="project-buttons">
                   <a href="https://github.com/shivasamkumar/3_Dof_Robot_Arm_Controller"
                      target="_blank"
@@ -508,6 +516,37 @@
               <!-- image-div commented out -->
             </div>
           </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Traffic-Aware Autonomous Driving Simulation Framework</article>
+                <p class="ProjectDescription">
+                  Autonomous car simulation platform combining ROS2, CARLA featuring path planning,obstacle avoidance, drivable-space estimation and integrated traffic sign and 
+                  light recognition in the state-machine behavior planner.
+                </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/ros2.svg" alt="OpenCV" title="Ros2" />
+                  <img src="src/svg/Gazebo.svg" alt="ROS 2" title="Gazebo" /> 
+                  <img src="src/png/Carla.jpeg" alt="C++" title="Carla" />
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Design_Optimization_Final_project"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
     
           <!-- AGV: IMU Sensors and EKF Fusion -->
           <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
@@ -515,11 +554,16 @@
               <div class="info-div">
                 <article class="ProjectHeading">AGV: IMU Sensors and EKF Fusion</article>
                 <p class="ProjectDescription">
-                  A custom-built robot car utilizing IMU sensors and Extended Kalman Filter for advanced sensor fusion with Gazebo simulation.
+                  A custom-built robot car utilizing IMU sensors, wheel odometry and Extended Kalman Filter for advanced sensor fusion with Gazebo simulation.
                 </p>
-                <p class="ProjectDescription">
-                  Please click the GitHub icon for more details.
-                </p>
+                <br>
+                <!-- <br> -->
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/ros2.svg" alt="OpenCV" title="Ros2" />
+                  <img src="src/svg/Gazebo.svg" alt="ROS 2" title="Gazebo" /> 
+                  <!-- <img src="src/png/Carla.jpeg" alt="C++" title="Carla" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="https://github.com/shivasamkumar/AGV_Kalman_Filter_Robot"
                      target="_blank"
@@ -541,13 +585,16 @@
           <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
             <div class="project-box project-box1" id="project-box1">
               <div class="info-div">
-                <article class="ProjectHeading">AGV: Adaptive MCL, SLAM & Twist Mux</article>
+                <article class="ProjectHeading">Priority-Based AGV Planning & Navigation</article>
                 <p class="ProjectDescription">
-                  Enhanced robot car with Adaptive Monte Carlo Localization, SLAM, and Twist Mux for priority-based velocity control.
+                  Built a planning and navigation framework for an AGV integrating adaptive MCL, SLAM, and Twist Mux arbitration for dynamic, priority-based velocity control and reliable path following.
                 </p>
-                <p class="ProjectDescription">
-                  Please click the GitHub icon for more details.
-                </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/ros2.svg" alt="OpenCV" title="Ros2" />
+                  <img src="src/svg/Gazebo.svg" alt="ROS 2" title="Gazebo" /> 
+                  <!-- <img src="src/png/Carla.jpeg" alt="C++" title="Carla" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="https://github.com/shivasamkumar/AGV_SLAM_Localization_and_Mapping"
                      target="_blank"
@@ -564,76 +611,25 @@
               </div>
             </div>
           </div>
+
+
+          
     
-          <!-- LPV-MPC Controller -->
-          <div class="project-box-wrapper" data-aos="fade-up" data-category="ros">
-            <div class="project-box project-box1" id="project-box1">
-              <div class="info-div">
-                <article class="ProjectHeading">LPV-MPC Controller for AGV</article>
-                <p class="ProjectDescription">
-                  Designed an LPV-MPC system for precise trajectory tracking of autonomous vehicles under dynamic conditions.
-                </p>
-                <p class="ProjectDescription">
-                  Please click the GitHub icon for more details.
-                </p>
-                <div class="project-buttons">
-                  <a href="https://github.com/shivasamkumar/Design_Optimization_Final_project"
-                     target="_blank"
-                     class="cta"
-                     aria-label="Visit GitHub for more details">
-                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
-                    <span>GitHub</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
-          <!-- Enhanced Real-Time 3D Multi-Object Detection -->
-          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
-            <div class="project-box project-box4" id="project-box4">
-              <div class="info-div">
-                <article class="ProjectHeading">3D Multi-Object Detection</article>
-                <p class="ProjectDescription">
-                  Faster, more accurate 3D tracking using PointPillars and TANet integration for autonomous systems.
-                </p>
-                <div class="project-buttons">
-                  <a href="3D_MOT.html"
-                     class="cta project-detail-link"
-                     aria-label="Read more about 3D MOT">
-                    <span>Read More</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                  <a href="javascript:void(0);"
-                     class="cta"
-                     aria-label="Open Project Docs"
-                     onclick="open_3d_mot()">
-                    <span>Project Docs</span>
-                    <svg viewBox="0 0 13 10" height="10px" width="15px">
-                      <path d="M1,5 L11,5"></path>
-                      <polyline points="8 1 12 5 8 9"></polyline>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-    
+          
           <!-- Multi-Robot Navigation -->
           <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
             <div class="project-box project-box5" id="project-box5">
               <div class="info-div">
-                <article class="ProjectHeading">Multi-Robot Navigation with DARP & A*</article>
+                <article class="ProjectHeading">Multi-Robot warehouse Automation</article>
                 <p class="ProjectDescription">
                   Optimizing warehouse automation using DARP for area division and A* for efficient path planning.
                 </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/png/webots.png" alt="OpenCV" title="Webots" />
+                  <!-- <img src="src/png/Matlab_Logo.png" alt="ROS 2" title="ROS 2" /> -->
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="multi_robo.html"
                      class="cta project-detail-link"
@@ -659,14 +655,61 @@
             </div>
           </div>
     
+          <!-- Enhanced Real-Time 3D Multi-Object Detection -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box4" id="project-box4">
+              <div class="info-div">
+                <article class="ProjectHeading">3D Multi-Object Detection:KITI Dataset</article>
+                <p class="ProjectDescription">
+                  Faster, more accurate 3D tracking using PointPillars and TANet integration for autonomous systems.
+                </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <!-- <img src="./src/svg/ros2.svg" alt="OpenCV" title="Java" /> -->
+                  <!-- <img src="src/png/Matlab_Logo.png" alt="ROS 2" title="ROS 2" /> -->
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
+                <div class="project-buttons">
+                  <a href="3D_MOT.html"
+                     class="cta project-detail-link"
+                     aria-label="Read more about 3D MOT">
+                    <span>Read More</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                  <a href="javascript:void(0);"
+                     class="cta"
+                     aria-label="Open Project Docs"
+                     onclick="open_3d_mot()">
+                    <span>Project Docs</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          
+    
           <!-- RoPal – Workplace Aromatherapy Robot -->
           <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
             <div class="project-box project-box2" id="project-box2">
               <div class="info-div">
-                <article class="ProjectHeading">RoPal – Your Friend at Workplace</article>
+                <article class="ProjectHeading">RoPal: Friend at Workplace (RoboTech 2023)</article>
                 <p class="ProjectDescription">
-                  A robot that detects stress through facial recognition and delivers soothing aromatherapy.
+                  A robot that detects stress through facial recognition and delivers soothing aromatherapy, prsented the Design and Simulation in 3 Day Hackathon in Georgia Tech University.
                 </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/ros2.svg" alt="Ros2" title="ROS 2" />
+                  <img src="src/svg/icons8-pytorch.svg" alt="torch" title="Pytorch" />
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="ropal.html"
                      class="cta project-detail-link"
@@ -690,6 +733,13 @@
                 <p class="ProjectDescription">
                   Web-based visualizer for forward/inverse kinematics of a hexapod, built with a team of five.
                 </p>
+                <br>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/java.svg" alt="OpenCV" title="Java" />
+                  <!-- <img src="src/png/Matlab_Logo.png" alt="ROS 2" title="ROS 2" /> -->
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="https://hexapod-mae547.web.app/"
                      target="_blank"
@@ -724,6 +774,42 @@
               </div>
             </div>
           </div>
+
+          <!-- LPV-MPC Controller -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">LPV-MPC Controller: AGV & Drone</article>
+                <p class="ProjectDescription">
+                  Designed an LPV-MPC system for precise trajectory tracking of autonomous vehicles under dynamic conditions.
+                </p>
+                <!-- <p class="ProjectDescription">
+                  Please click the GitHub icon for more details.
+                </p> -->
+                <!-- <br> -->
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <!-- <img src="./src/svg/ros2.svg" alt="OpenCV" title="" /> -->
+                  <!-- <img src="src/png/Matlab_Logo.png" alt="ROS 2" title="ROS 2" /> -->
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Design_Optimization_Final_project"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
     
           <!-- Mambo Drone -->
           <div class="project-box-wrapper" data-aos="fade-up" data-category="robotics">
@@ -733,6 +819,15 @@
                 <p class="ProjectDescription">
                   Low-level software, sensor fusion, and vision for precise autonomous line-following.
                 </p>
+                <!-- <p>
+
+                </p> -->
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/OpenCV.svg" alt="OpenCV" title="OpenCV" />
+                  <img src="src/png/Matlab_Logo.png" alt="ROS 2" title="ROS 2" />
+                  <!-- <img src="src/svg/cpp.svg" alt="C++" title="C++" /> -->
+                </div>
                 <div class="project-buttons">
                   <a href="drone.html"
                      class="cta project-detail-link"
@@ -747,6 +842,135 @@
               </div>
             </div>
           </div>
+
+          <!-- AI ML Projects  -->
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ai_ml">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Multimodal Plant Disease QA & Detection Pipeline</article>
+                <p class="ProjectDescription">
+                  End-to-end RAG-powered Gradio app that scrapes plant-disease articles into a ChromaDB vector store, a custom YOLO model to detect crop disease, and wraps both vision and retrieval QA via LangChain for interactive image-based diagnosis and follow-up questions Gpt's API and Tool call functionality.
+                </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/icons8-pytorch.svg" alt="Pytorch" title="PyTorch" />
+                  <img src="src/svg/icons8-chatgpt.svg" alt="gpt" title="Gpt-API" /> 
+                  <!-- <img src="src/png/Carla.jpeg" alt="C++" title="Carla" /> -->
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Plant_Disease_Multimodal_QA"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ai_ml">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Prompt Driven Cloth Editor</article>
+                <p class="ProjectDescription">
+                  Python pipeline for Fine- tuning NVIDIA’s SegFormer on a custom multi-class clothing dataset for semantic garment masks and integrated it with Stable Diffusion inpainting to enable interactive, prompt-based clothing edits and also tried a version 2 with CLIPSEG (for prompt based semantic segmentation).
+                </p>
+                <br>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/icons8-pytorch.svg" alt="torch" title="Pytorch" />
+                  <img src="./src/svg/icons8-google-colab.svg" alt="colab" title="Colab" /> 
+                  <img src="./src/svg/icons8-hugging-face.svg" alt="hf" title="Hugging Face" /> 
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Prompt_Based_Cloth_editting"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ai_ml">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">YOLOv12 Pipeline for Plant Disease & Weed Detection</article>
+                <p class="ProjectDescription">
+                  Python pipeline that assembles and merges custom plant-disease and weed datasets from Roboflow, 
+                  Training and fine-tuning two YOLOv12 models, dual-model inference and GPT-4o for natural-language agronomic advice and treatment suggestions.
+                </p>
+                <div class="project-skills">
+                  <img src="./src/svg/Python.svg" alt="Python" title="Python" />
+                  <img src="./src/svg/icons8-pytorch.svg" alt="torch" title="Pytorch" />
+                  <img src="./src/svg/icons8-google-colab.svg" alt="colab" title="Colab" /> 
+                  <!-- <img src="src/png/Carla.jpeg" alt="C++" title="Carla" /> -->
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Plant_Disease_and_weed_detector"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up" data-category="ai_ml">
+            <div class="project-box project-box1" id="project-box1">
+              <div class="info-div">
+                <article class="ProjectHeading">Life Expectancy Analysis: Socioeconomic & Health Predictors: R</article>
+                <p class="ProjectDescription">
+                  R-based study of life expectancy across 193 countries over 15 years, combining correlation analysis, ANOVA, multiple & polynomial regression, and LASSO feature selection with AIC-driven model.
+                </p>
+                <div class="project-skills">
+                  <img src="./src/png/R_logo.svg.png" alt="R" title="R" />
+                  <!-- <img src="./src/svg/ros2.svg" alt="OpenCV" title="Ros2" />
+                  <img src="src/svg/Gazebo.svg" alt="ROS 2" title="Gazebo" />  -->
+                  <!-- <img src="src/png/Carla.jpeg" alt="C++" title="Carla" /> -->
+                </div>
+                <div class="project-buttons">
+                  <a href="https://github.com/shivasamkumar/Life-Expectancy-Analysis-Socioeconomic-and-Health-Factors-with-R-Script"
+                     target="_blank"
+                     class="cta"
+                     aria-label="Visit GitHub for more details">
+                    <img src="src/svg/github.svg" alt="GitHub icon" class="github-icon" />
+                    <span>GitHub</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+
+
+        
     
         </div> <!-- /.project-boxes-div -->
       </div> <!-- /.projects-section-div -->

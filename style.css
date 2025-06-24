@@ -2792,4 +2792,17 @@ transform: scale(1.1);
     color: var(--color-dark-mode);
   }
   
+  /* ─── Project Skills Strip ───────────────────────── */
+.project-skills {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin: 5px 0;
+  }
+  .project-skills img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
 
