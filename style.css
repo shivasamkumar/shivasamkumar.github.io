@@ -1033,12 +1033,20 @@ noscript {
 }
 
 .projects-heading,
-.section-heading,
+.section-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
 .skills-heading {
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    padding-bottom: 0px;
 }
 
 .dp img,
@@ -1217,7 +1225,7 @@ footer {
 }
 
 .projects-section-container {
-    padding: 150px 0;
+    padding: 150px 0 0px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2259,7 +2267,7 @@ footer {
 }
 
 .certifications-section-container {
-    padding-top: 10px;
+    padding-top: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -2358,7 +2366,7 @@ footer {
 
 /* Experience Section */
 .experience-section-container {
-    padding: 100px 0px;
+    padding: 150px 0px 0px 0px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -2773,7 +2781,7 @@ transform: scale(1.1);
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 40px;
   }
   .filter-btn {
