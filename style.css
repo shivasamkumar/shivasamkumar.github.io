@@ -2713,7 +2713,7 @@ transform: scale(1.1);
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width:768px) {
     .project-box {
       height: auto; /* Dynamically adjust height based on content */
       padding: 30px 5px; /* Compact padding for smaller screens */
@@ -2770,7 +2770,7 @@ transform: scale(1.1);
     }
   } */
 
-  @media (max-width: 1000px) {
+  @media (max-width: 768px) {
     .project-boxes-div {
       padding: 50px 0 !important;
     }
