@@ -2813,4 +2813,22 @@ transform: scale(1.1);
     object-fit: contain;
   }
   
+  .social-links {
+    display: flex;
+    gap: 16px;
+    margin: 16px 30px;
+    justify-content: center;
+  }
+  .social-links a {
+    display: inline-flex;
+  }
+  .social-links img {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    transition: transform .2s;
+  }
+  .social-links img:hover {
+    transform: scale(1.1);
+  }
 
