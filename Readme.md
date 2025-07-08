@@ -3,6 +3,7 @@
 A portfolio website built with HTML, CSS, and JavaScript, featuring a Retrieval-Augmented Generation (RAG)-based chatbot that serves as a virtual assistant, answering questions about Shiva Sam Kumar Govindan.
 
 **Live Demo:** https://shivasamkumar.github.io/
+**Chatbot Live Demo:** https://shiva-bot-7b7a47a4404f.herokuapp.com/
 
 ## Features
 
@@ -72,7 +73,7 @@ A portfolio website built with HTML, CSS, and JavaScript, featuring a Retrieval-
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
 
 ## Contact
 
