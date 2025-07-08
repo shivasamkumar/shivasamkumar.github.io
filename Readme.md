@@ -5,6 +5,20 @@ A portfolio website built with HTML, CSS, and JavaScript, featuring a Retrieval-
 **Live Demo:** https://shivasamkumar.github.io/
 **Chatbot Live Demo:** https://shiva-bot-7b7a47a4404f.herokuapp.com/
 
+
+<img width="100%" alt="Portfolio Screenshot front" src="https://github.com/">
+
+                              Main Page
+
+<img width="100%" alt="Portfolio Screenshot Experience" src="https://github.com/">
+
+                            Added experience section
+
+<img width="100%" alt="Portfolio Screenshot Project" src="https://github.com/">
+
+                            Enhanced Project Container
+
+
 ## Features
 
 * **Static Frontend:** Crafted with semantic HTML5, modern CSS3, and vanilla JavaScript.
