@@ -3,20 +3,21 @@
 A portfolio website built with HTML, CSS, and JavaScript, featuring a Retrieval-Augmented Generation (RAG)-based chatbot that serves as a virtual assistant, answering questions about Shiva Sam Kumar Govindan.
 
 **Live Demo:** https://shivasamkumar.github.io/
+
 **Chatbot Live Demo:** https://shiva-bot-7b7a47a4404f.herokuapp.com/
 
 
-<img width="100%" alt="Portfolio Screenshot front" src="https://github.com/">
+<img width="100%" alt="Portfolio Screenshot front" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website_front.png">
 
-                              Main Page
+                                                            Main Page
 
-<img width="100%" alt="Portfolio Screenshot Experience" src="https://github.com/">
+<img width="100%" alt="Portfolio Screenshot Experience" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website_experience.png">
 
-                            Added experience section
+                                                      Added experience section
 
-<img width="100%" alt="Portfolio Screenshot Project" src="https://github.com/">
+<img width="100%" alt="Portfolio Screenshot Project" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website%20project.png">
 
-                            Enhanced Project Container
+                                                      Enhanced Project Container
 
 
 ## Features
