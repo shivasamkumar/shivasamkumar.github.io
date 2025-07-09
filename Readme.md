@@ -9,16 +9,15 @@ A portfolio website built with HTML, CSS, and JavaScript, featuring a Retrieval-
 
 <img width="100%" alt="Portfolio Screenshot front" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website_front.png">
 
-                                                            Main Page
-
+<p align="center">Landing Page</p>
+                                                            
 <img width="100%" alt="Portfolio Screenshot Experience" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website_experience.png">
 
-                                                      Added experience section
+<p align="center">Added experience section</p>
 
 <img width="100%" alt="Portfolio Screenshot Project" src="https://github.com/shivasamkumar/shivasamkumar.github.io/blob/main/src/png/Website%20project.png">
 
-                                                      Enhanced Project Container
-
+<p align="center">Enhanced Project Container</p>                                            
 
 ## Features
 
